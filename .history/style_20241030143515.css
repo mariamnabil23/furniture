@@ -1,0 +1,10 @@
+
+*{
+    box-sizing: ;
+}
+.navbar .left{
+    float: left;
+}
+.navbar .right{
+    float: right;
+}

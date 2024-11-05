@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sorts+Mill+Goudy:ital@0;1&family=Tajawal:wght@200;300;400;500;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&family=Zen+Dots&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "League Spartan", sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(249, 251, 251);
+    padding: 30px;
+}
+.navbar .left{
+    float: left;
+    display: inline;
+}
+.navbar .right{
+    float: right;
+    display: inline;
+}
+.navbar .right ul li{
+    display: inline;
+}
+
+
+/* home */
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/images/home-bg-1.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.home .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.home .top h5{
+    display: inline;
+    color: #00a05d;
+    font-size: 18px;
+}
+.home .top i{
+    color: #f65129;
+}
+.home .middle h1{
+    color: white;
+    font-size: 60px;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+.home .bottom {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+}
+.home .bottom .l,
+.home .bottom .r{
+    margin: auto;
+}
+.home .bottom .r,
+.home .bottom .btn{
+    padding-left: 10px;
+}
+.home .bottom button{
+    background: #f65129;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* about */
+
+.about{
+
+}
+.about .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.about h5{
+    color: #00a05d;
+    font-size: 18px;
+}
+.middle

@@ -1,0 +1,15 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    mar
+}
+.navbar{
+    width: 100%;
+}
+.navbar .left{
+    float: left;
+}
+.navbar .right{
+    float: right;
+}

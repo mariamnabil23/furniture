@@ -1,0 +1,13 @@
+
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100;
+}
+.navbar .left{
+    float: left;
+}
+.navbar .right{
+    float: right;
+}
